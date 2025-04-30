@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/docs",
+      "destination": "https://hahnbee-docs.mintlifytest.com/docs"
+    },
+    {
+      "source": "/docs/:match*",
+      "destination": "https://hahnbee-docs.mintlifytest.com/docs/:match*"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/docs",
-      "destination": "https://hahnbee-docs.mintlifytest.com/docs"
+      "source": "/custom/subdirectory/:path*",
+      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
     },
     {
-      "source": "/docs/:match*",
-      "destination": "https://hahnbee-docs.mintlifytest.com/docs/:match*"
+      "source": "/mintlify-assets/:path+",
+      "destination": "https://hahnbeeyeet.mintlify.app/mintlify-assets/:path+"
     }
   ]
 }

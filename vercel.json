@@ -1,8 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
       "source": "/custom/subdirectory",
-      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory"
+      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
     },
     {
       "source": "/custom/subdirectory/:path*",

@@ -12,6 +12,10 @@
     {
       "source": "/mintlify-assets/:path+",
       "destination": "https://hahnbeeyeet.mintlify.app/mintlify-assets/:path+"
+    },
+    {
+      "source": "/custom/subdirectory/:path.(txt|xml)",
+      "destination": "https://hahnbeeyeet.mintlify.app/:path.(txt|xml)"
     }
   ]
 }

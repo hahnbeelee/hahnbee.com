@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/custom/subdirectory",
-      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory"
+      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/introduction"
     },
     {
       "source": "/custom/subdirectory/:path*",

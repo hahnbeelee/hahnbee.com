@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/custom/subdirectory",
+      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory"
+    },
+    {
       "source": "/custom/subdirectory/:path*",
       "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
     },

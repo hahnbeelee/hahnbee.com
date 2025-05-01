@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/custom/subdirectory/:path*",
-      "destination": "https://hahnbeeyeet.mintlify.app/:path*"
+      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
     },
     {
       "source": "/mintlify-assets/:path+",

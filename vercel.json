@@ -6,16 +6,28 @@
       "destination": "https://hahnbeeyeet.mintlify.app"
     },
     {
-      "source": "/custom/subdirectory/:path.(txt|xml)",
-      "destination": "https://hahnbeeyeet.mintlify.app/:path.(txt|xml)"
-    },
-    {
       "source": "/custom/subdirectory/:path*",
       "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
     },
     {
       "source": "/mintlify-assets/:path+",
       "destination": "https://hahnbeeyeet.mintlify.app/mintlify-assets/:path+"
+    },
+    {
+      "source": "/custom/subdirectory/llms.txt",
+      "destination": "https://hahnbeeyeet.mintlify.app/llms.txt"
+    },
+    {
+      "source": "/custom/subdirectory/llms-full.txt",
+      "destination": "https://hahnbeeyeet.mintlify.app/llms-full.txt"
+    },
+    {
+      "source": "/custom/subdirectory/sitemap.xml",
+      "destination": "https://hahnbeeyeet.mintlify.app/sitemap.xml"
+    },
+    {
+      "source": "/custom/subdirectory/robots.txt",
+      "destination": "https://hahnbeeyeet.mintlify.app/robots.txt"
     }
   ]
 }

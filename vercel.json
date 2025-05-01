@@ -6,14 +6,6 @@
       "destination": "https://hahnbeeyeet.mintlify.app"
     },
     {
-      "source": "/custom/subdirectory/:path*",
-      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
-    },
-    {
-      "source": "/mintlify-assets/:path+",
-      "destination": "https://hahnbeeyeet.mintlify.app/mintlify-assets/:path+"
-    },
-    {
       "source": "/custom/subdirectory/llms.txt",
       "destination": "https://hahnbeeyeet.mintlify.app/llms.txt"
     },
@@ -28,6 +20,14 @@
     {
       "source": "/custom/subdirectory/robots.txt",
       "destination": "https://hahnbeeyeet.mintlify.app/robots.txt"
+    },
+    {
+      "source": "/custom/subdirectory/:path*",
+      "destination": "https://hahnbeeyeet.mintlify.app/custom/subdirectory/:path*"
+    },
+    {
+      "source": "/mintlify-assets/:path+",
+      "destination": "https://hahnbeeyeet.mintlify.app/mintlify-assets/:path+"
     }
   ]
 }

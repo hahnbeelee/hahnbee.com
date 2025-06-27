@@ -2,6 +2,14 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
+      "source": "/docs",
+      "destination": "https://mintlify.mintlifytest.com/docs"
+    },
+    {
+      "source": "/docs/:match*",
+      "destination": "https://mintlify.mintlifytest.com/docs/:match*"
+    },
+    {
       "source": "/api/request",
       "destination": "https://hahnbeeyeet.mintlify.app/api/request"
     },

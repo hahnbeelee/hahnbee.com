@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/docs",
-      "destination": "https://mintlify.mintlifytest.com/docs"
+      "destination": "https://orderly.mintlifytest.com/docs"
     },
     {
       "source": "/docs/:match*",
-      "destination": "https://mintlify.mintlifytest.com/docs/:match*"
+      "destination": "https://orderly.mintlifytest.com/docs/:match*"
     },
     {
       "source": "/api/request",

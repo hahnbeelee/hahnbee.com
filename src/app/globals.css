@@ -24,3 +24,67 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.prose-content > * + * {
+  margin-top: 1.25em;
+}
+
+.prose-content h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 2em;
+}
+
+.prose-content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.75em;
+}
+
+.prose-content a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose-content code {
+  font-family: var(--font-geist-mono);
+  font-size: 0.875em;
+  background: color-mix(in srgb, var(--foreground) 8%, transparent);
+  padding: 0.125em 0.375em;
+  border-radius: 0.25rem;
+}
+
+.prose-content pre {
+  font-family: var(--font-geist-mono);
+  font-size: 0.8125rem;
+  background: color-mix(in srgb, var(--foreground) 6%, transparent);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.prose-content pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.prose-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.prose-content ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+
+.prose-content blockquote {
+  border-left: 2px solid color-mix(in srgb, var(--foreground) 25%, transparent);
+  padding-left: 1rem;
+  color: color-mix(in srgb, var(--foreground) 70%, transparent);
+}
+
+.prose-content hr {
+  border-color: color-mix(in srgb, var(--foreground) 15%, transparent);
+}

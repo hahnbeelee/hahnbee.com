@@ -34,7 +34,7 @@ export default async function PostPage({
     <main className="p-6 pt-3 md:pt-6 min-h-screen">
       <header className="mb-6">
         <Link href="/" className="text-sm font-bold hover:underline">
-          Hahnbee Lee
+          ← Back
         </Link>
       </header>
       <article>
